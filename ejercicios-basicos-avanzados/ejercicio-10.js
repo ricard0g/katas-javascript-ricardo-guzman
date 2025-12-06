@@ -10,6 +10,6 @@ function average(numberList) {
     return totalSum / numberList.length;
 }
 
-console.log("\n=== EJERCICIO 9 ===\n");
+console.log("\n=== EJERCICIO 10 ===\n");
 console.log(average(numbers));
 console.log("")
