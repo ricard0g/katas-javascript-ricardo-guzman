@@ -19,9 +19,12 @@ const names = [
 function nameFinder(nameList, nameToFind) {
     const nameIndex = nameList.indexOf(nameToFind);
 
-    return nameIndex ? `${true} en posicion --> ${nameIndex}` : false;
+    if (nameIndex > -1) {
+        return `true, posicion: ${nameIndex}`
+    }
+    return false
 }
 
 console.log("\n=== EJERCICIO 13 ===\n");
-console.log(nameFinder(names, "Logan"));
+console.log(nameFinder(names, "Peter"));
 console.log("")
