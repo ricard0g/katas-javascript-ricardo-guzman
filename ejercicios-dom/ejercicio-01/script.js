@@ -1,6 +1,6 @@
 // 1.1 Usa querySelector para mostrar por consola el botón con la clase .showme
 
-const showMeButton = document.querySelector(".showme");
+const showMeButton = document.getElementsByClassName("showme");
 
 console.log(showMeButton);
 
