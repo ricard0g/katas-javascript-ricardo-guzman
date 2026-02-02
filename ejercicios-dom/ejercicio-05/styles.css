@@ -1,0 +1,59 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    width: 90vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+.album-list {
+    max-width: 100%;
+}
+
+.album-list ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 5px;
+    height: auto;
+}
+
+.album-list li {
+    max-width: 100%;
+    min-width: 400px;
+    border-radius: 8px;
+}
+
+.album-list li:hover {
+    background-color: aliceblue;
+}
+
+.album-list li figure {
+    max-width: 100%;
+}
+
+.album-cover__img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+figcaption {
+    font-size: 1.5rem;
+    text-align: center;
+}
