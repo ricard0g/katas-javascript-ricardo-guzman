@@ -63,8 +63,7 @@ const removeBtn = document.createElement("button");
 removeBtn.innerText = "Eliminar Ultimo Elemento";
 
 removeBtn.addEventListener("click", (e) => {
-	const lastDiv = removeBtn.previousElementSibling.lastChild.remove();
-	body.removeChild(lastDiv);
+	removeBtn.previousElementSibling.lastChild.remove();
 });
 
 body.appendChild(removeBtn);
