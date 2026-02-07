@@ -21,7 +21,7 @@ fetch(
 // 			`https://pokeapi.co/api/v2/pokemon/${Math.floor(Math.random() * 151) + 1}`,
 // 		);
 
-// 		if (!response) {
+// 		if (!response.ok) {
 // 			throw new Error("Error en la extraccion del Pokemon: " + response);
 // 		}
 

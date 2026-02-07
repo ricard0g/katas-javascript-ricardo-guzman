@@ -33,7 +33,7 @@ select.addEventListener("change", (e) => {
 // 			"https://thronesapi.com/api/v2/Characters",
 // 		);
 
-// 		if (!response) {
+// 		if (!response.ok) {
 // 			throw new Error(
 // 				"No se han podido recolectar los personajes. Error: " +
 // 					response,
